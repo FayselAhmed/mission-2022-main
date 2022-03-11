@@ -10,10 +10,16 @@ h1{
     margin-bottom: 0%;
     padding-left: 10px;
 }
+
 .container {
     margin: 0 auto;
     max-width: 1000px;
     width: 100%;
+    
+}
+.container-2nd{
+    display: flex;
+
 }
 .years{
     color: orange;
@@ -28,6 +34,24 @@ h2{
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 100px;
+}
+    
+.coding-pic{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 80%;
+    margin-left: 10%
+}
+.project{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 24px right 50px;
+    background-size: 150px;
+    height: 500px;
+    
+    
 }
 .Stay-Focused{
     margin-left: 5%;
@@ -38,10 +62,11 @@ h2{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
+
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
 }
 .link-button{
     text-decoration: none;
@@ -59,6 +84,14 @@ h2{
 }
 .middle{
     text-align: center;
+    margin-bottom: 5%;
+}
+.code-solve{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.orange{
+    color: orange;
 }
 
 .item {
@@ -80,4 +113,13 @@ h2{
 }
 .box-shadow img {
     width: 100px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.date{
+    color: red;
 }
